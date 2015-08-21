@@ -1,4 +1,4 @@
-var BASE_URL = 'http://meturl.meteor.com/m/';
+var BASE_URL = 'http://go.meteor.com/m/';
 
 function navigate(url) {
   chrome.tabs.query({active: true, currentWindow: true}, function(tabs) {
